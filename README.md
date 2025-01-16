@@ -1,3 +1,23 @@
+Windows how to:
+
+1. open Powershell and run "wsl --install" to install wsl ubuntu, type desired username and password
+2. open the root of this folder in powershell
+3. run wsl -d ubuntu
+to open a shell in ubuntu
+4. run sudo apt-get update 
+and input your password
+5. run sudo apt-get install texlive-latex-base
+6. run sudo apt-get install texlive-fonts-recommended
+7. run sudo apt-get install texlive-fonts-extra
+8. run sudo apt-get install texlive-latex-extra
+9. run sudo apt-get install golang-go
+10. run sudo apt install texlive-xetex
+11. run ./build.bat
+
+---
+
+
+
 # latex-yearly-planner
 
 PDF planner designed for e-ink devices.
